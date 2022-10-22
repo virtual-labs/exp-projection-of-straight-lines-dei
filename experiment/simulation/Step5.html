@@ -29,9 +29,54 @@
 
         #png2 {
             position: relative;
-            margin-left: -304px;
-            margin-top: -332px;
+            margin-left: 132px;
+            margin-top: -65px;
+        }
 
+        #png3 {
+            position: relative;
+            margin-left: -176px;
+            margin-top: 17px;
+            transform: rotate(-73deg);
+
+        }
+
+        #png4 {
+            position: relative;
+            margin-left: -28px;
+            margin-top: 132px;
+            transform: rotate(-52deg);
+
+        }
+
+        #png5 {
+            position: relative;
+            margin-left: -86px;
+            margin-top: 175px;
+
+
+        }
+
+        #png6 {
+            position: relative;
+            margin-left: 25px;
+            margin-top: -115px;
+
+        }
+
+
+
+        .drop {
+            position: absolute;
+            display: inline-block;
+            margin-top: -155px;
+            margin-left: -248px;
+            opacity: 0;
+            z-index: 1001;
+        }
+
+        .choice {
+            opacity: 0;
         }
     </style>
 </head>
@@ -73,22 +118,37 @@
                             <div class="sub-header" style="position: relative; margin-top:  2rem;">
 
 
-                                <img id="png" class="board" src="images/sheet.png" alt="picture" width="620"
-                                    height="380">
-                                <img id="png1" class="board" src="images/Picture14.png" alt="picture" width="400"
-                                    height="215">
-                                <img id="png2" class="board" src="images/ASSEMBLY.png" alt="picture" width="500"
-                                    height="50">
-                               
-                                    <div class="dropdown">
-                                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                                        <div id="myDropdown" class="dropdown-content">
-                                          <a href="#home">Home</a>
-                                          <a href="#about">About</a>
-                                          <a href="#contact">Contact</a>
-                                        </div>
-                                      </div>
-                                
+                                <img id="png" class="board" src="images/dgs.png" alt="picture" width="620" height="380">
+
+
+                                <img id="png2" class="board" src="images/unnamed.png" alt="picture" width="399"
+                                    height="50" style="display: visible;">
+                                <!-- <img id="png3" class="board" src="images/2H.png" alt="picture" width="200" height="10"
+                                    style="visibility:hidden ;"> -->
+                                <img id="png4" class="board" src="images/3H.png" alt="picture" width="145" height="10"
+                                    style="visibility:hidden ;" onclick="movepen()">
+
+                                <img id="png5" class="board" src="images/arrow left.gif" alt="picture" width="100"
+                                    height="50" style="visibility:hidden;">
+                                <img id="png6" class="board" src="images/output-onlinegiftools (24) (1).gif"
+                                    alt="picture" width="620" height="380" style="visibility: hidden;">
+
+
+
+
+                                <div class="drop" width="10" height="10">
+                                    <select id="choice" onchange="getValue(this);" width="20" height="20">
+                                        <option value="default" selected>Select</option>
+                                        <option value="pen">3H Pencil</option>
+                                        <option value="penn">2H Pencil</option>
+
+                                    </select>
+                                </div>
+
+                                <span id="numoutnext"
+                                    style="position: absolute; left: 410px; top: 135px; color: red; font-size: 12px"></span>
+
+
 
 
 

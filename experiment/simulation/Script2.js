@@ -1,17 +1,27 @@
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+
+let greeting;
+function getValue(option) {
+
+  if (option.value =="pen")
+   {debugger;
+    document.getElementById("png4").style.visibility = "visible";
+    document.getElementById("png5").style.visibility = "visible";
+    document.getElementById("numoutnext").innerHTML = "";
   }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
+
+  else
+   {
+    document.getElementById("numoutnext").innerHTML="Select 3H pencil";
+    document.getElementById("png4").style.visibility = "hidden";
+    document.getElementById("png5").style.visibility = "hidden";
+    
   }
+}
+
+function movepen(){
+  document.getElementById("png6").style.visibility="visible";
+  document.getElementById("png").style.visibility="hidden";
+  document.getElementById("png5").style.visibility="hidden";
+  document.getElementById("png4").style.visibility="hidden";
+
+}
