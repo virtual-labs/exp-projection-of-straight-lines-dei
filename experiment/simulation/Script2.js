@@ -11,5 +11,7 @@ function getValue(option) {
   else
    {
     document.getElementById("numoutnext").innerHTML="Select 3H pencil";
+    document.getElementById("png4").style.visibility = "hidden";
+    
   }
 }
