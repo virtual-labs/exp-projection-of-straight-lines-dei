@@ -30,8 +30,7 @@
         #png2 {
             position: relative;
             margin-left: 132px;
-            margin-top: -26px;
-
+            margin-top: -65px;
         }
 
         #png3 {
@@ -45,8 +44,23 @@
         #png4 {
             position: relative;
             margin-left: -28px;
-            margin-top: 175px;
+            margin-top: 132px;
             transform: rotate(-52deg);
+
+        }
+
+        #png5 {
+            position: relative;
+            margin-left: -86px;
+            margin-top: 175px;
+
+
+        }
+
+        #png6 {
+            position: relative;
+            margin-left: 25px;
+            margin-top: -115px;
 
         }
 
@@ -55,11 +69,10 @@
         .drop {
             position: absolute;
             display: inline-block;
-            margin-top: 69px;
-            margin-left: -271px;
+            margin-top: -155px;
+            margin-left: -248px;
             opacity: 0;
             z-index: 1001;
-
         }
 
         .choice {
@@ -105,15 +118,21 @@
                             <div class="sub-header" style="position: relative; margin-top:  2rem;">
 
 
-                                <img id="png" class="board" src="images/dgs.png" alt="picture"
-                                    width="620" height="380">
+                                <img id="png" class="board" src="images/dgs.png" alt="picture" width="620" height="380">
+
 
                                 <img id="png2" class="board" src="images/unnamed.png" alt="picture" width="399"
                                     height="50" style="display: visible;">
                                 <!-- <img id="png3" class="board" src="images/2H.png" alt="picture" width="200" height="10"
                                     style="visibility:hidden ;"> -->
                                 <img id="png4" class="board" src="images/3H.png" alt="picture" width="145" height="10"
-                                    style="visibility:hidden ;">
+                                    style="visibility:hidden ;" onclick="movepen()">
+
+                                <img id="png5" class="board" src="images/arrow left.gif" alt="picture" width="100"
+                                    height="50" style="visibility:hidden;">
+                                <img id="png6" class="board" src="images/output-onlinegiftools (24) (1).gif"
+                                    alt="picture" width="620" height="380" style="visibility: hidden;">
+
 
 
 
