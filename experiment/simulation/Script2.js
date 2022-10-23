@@ -28,7 +28,21 @@ function movepen(){
 }
 
 function nextst(){
-  document.getElementById("").style.visibility="";
+  document.getElementById("png8").style.visibility="visible";
+  document.getElementById("png6").style.visibility="hidden";
+  document.getElementById("png5").style.visibility="hidden";
+  document.getElementById("png7").style.visibility="hidden";
+  myTimeout1 = setTimeout(myGreeting1, 9000);
+
+}
+
+function nextst1(){
+  document.getElementById("png9").style.visibility="visible";
+  document.getElementById("png10").style.visibility="hidden";
+  document.getElementById("png5").style.visibility="hidden";
+  // document.getElementById("png7").style.visibility="hidden";
+  myTimeout2 = setTimeout(myGreeting2, 15000);
+
 }
 
 
@@ -39,6 +53,33 @@ function myGreeting()
   }
   
   function myStopFunction() {
+    clearTimeout(myTimeout);
+
+  
+}
+
+function myGreeting1()
+     {
+    document.getElementById("png5").style.visibility="visible";
+    document.getElementById("png10").style.visibility="visible";
+    document.getElementById("png7").style.visibility="hidden";
+    myStopFunction1();
+  }
+  
+  function myStopFunction1() {
+    clearTimeout(myTimeout);
+
+  
+}
+
+function myGreeting2()
+     {
+    document.getElementById("next").style.visibility="visible";
+    
+    myStopFunction1();
+  }
+  
+  function myStopFunction1() {
     clearTimeout(myTimeout);
 
   
