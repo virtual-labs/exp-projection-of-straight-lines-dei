@@ -157,7 +157,8 @@ function myGreeting1()
 function myGreeting2()
      {
     document.getElementById("dr2").style.visibility="visible";
-    
+    document.getElementById("canvas4").style.visibility="visible";
+    document.getElementById("canvas3").style.visibility="hidden";
     myStopFunction1();
   }
   
@@ -170,7 +171,8 @@ function myGreeting2()
 function myGreeting3()
      {
     document.getElementById("dr3").style.visibility="visible";
-    
+    document.getElementById("canvas5").style.visibility="visible";
+    document.getElementById("canvas4").style.visibility="hidden";
     myStopFunction1();
   }
   
