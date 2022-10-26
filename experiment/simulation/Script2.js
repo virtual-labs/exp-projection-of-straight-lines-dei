@@ -50,6 +50,7 @@ function nextst(){
   document.getElementById("png8").style.visibility="visible";
   document.getElementById("png6").style.visibility="hidden";
   document.getElementById("png5").style.visibility="hidden";
+  document.getElementById("dr1").style.visibility="hidden";
   document.getElementById("png3").style.visibility="hidden";
   myTimeout1 = setTimeout(myGreeting1, 9000);
 
