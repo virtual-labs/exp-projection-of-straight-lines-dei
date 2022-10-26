@@ -67,7 +67,7 @@ function nextst1(){
 
 function myGreeting()
      {
-    document.getElementById("png5").style.visibility="visible";
+    // document.getElementById("png5").style.visibility="visible";
     document.getElementById("dr1").style.visibility="visible";
     document.getElementById("canvas2").style.visibility="visible";
     document.getElementById("canvas1").style.visibility="hidden";
