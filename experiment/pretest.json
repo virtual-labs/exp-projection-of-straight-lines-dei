@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following pencil is used to draw construction lines",
+      "question": "1. Which of the following pencil is used to draw construction lines",
       "answers": {
         "a": "3H",
         "b": "HB",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which pencil is used to draw visible projections?",
+      "question": "2. Which pencil is used to draw visible projections?",
       "answers": {
         "a": "3H",
         "b": "HB",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which pencil is used to draw visible projections?",
+      "question": "3. Which pencil is used to draw visible projections?",
       "answers": {
         "a": "Projection line",
         "b": "Reference line",
@@ -38,7 +38,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If a line 40mm long is originating from hp then what is its shortest distance from hp?",
+      "question": "4. If a line 40mm long is originating from hp then what is its shortest distance from hp?",
       "answers": {
         "a": "20mm",
         "b": "10mm",
@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Least count of mini drafter?",
+      "question": "5. Least count of mini drafter?",
       "answers": {
         "a": "10mm",
         "b": "1mm",
