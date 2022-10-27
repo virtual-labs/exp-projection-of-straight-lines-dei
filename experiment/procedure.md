@@ -1,5 +1,8 @@
 ### Procedure
 ##### Line parallel to both HP and VP.
+1. Draw XY line
+2. Then draw projection of given line in HP at given distance from VP 
+3. Similarly draw its projection in VP at given distanve from HP in the same proejction as that of drawn in HP 
 
 ##### Line perpendicular to one plane and parallel to other.
 1. Draw XY line
