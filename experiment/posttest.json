@@ -2,38 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The projection of line is always ______ to it's actual line ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Greater than or equal",
+        "b": "Less than or equa",
+        "c": "Greater",
+        "d": "Smaller"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " If line is situated in HP then its projection in vp?",
+      "answers": {
+        "a": "Lies at some distance from xy",
+        "b": "Lies parallel to xy",
+        "c": "Lies in xy"
+        
       },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " If a line is 40mm long and is inclined at 30° from hp and parallel to VP then its projection in HP is?",
+      "answers": {
+        "a": "34.64mm",
+        "b": "20mm",
+        "c": "30.76mm",
+        "d": "40mm"
+        
+      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": " If the projection of a line is a point in HP. It means?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Line is parallel to both HP and VP",
+        "b": "Line is perpendicular to HP and parallel to VP",
+        "c": "Line is perpendicular to VP and parallel to HP"
+        
+        
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "If a line is in VP, which view from the following gives the actual length of the line AB??",
+      "answers": {
+        "a": "Top view",
+        "b": "Side view",
+        "c": "Front view",
+        "d": "40mm"
+       },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
+
+
   ]
 }
