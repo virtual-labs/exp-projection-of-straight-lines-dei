@@ -59,9 +59,7 @@
         "b": "Side view",
         "c": "Front view",
         "d": "40mm"
-        
-        
-      },
+       },
       
       "correctAnswer": "c",
       "difficulty": "beginner"
