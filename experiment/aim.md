@@ -1,1 +1,1 @@
-### Aim of the experiment
+### To study the projection of straight lines.
