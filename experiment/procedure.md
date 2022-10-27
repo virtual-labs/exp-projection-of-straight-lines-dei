@@ -1,3 +1,4 @@
+### Procedure
 1. Line parallel to both HP and VP.
 
 2. Line perpendicular to one plane and parallel to other.
