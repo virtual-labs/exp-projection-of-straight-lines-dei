@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The projection of line is always ______ to it's actual line ?",
+      "question": "1. The projection of line is always ______ to it's actual line ?",
       "answers": {
         "a": "Greater than or equal",
         "b": "Less than or equa",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " If line is situated in HP then its projection in vp?",
+      "question": "2. If line is situated in HP then its projection in vp?",
       "answers": {
         "a": "Lies at some distance from xy",
         "b": "Lies parallel to xy",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " If a line is 40mm long and is inclined at 30° from hp and parallel to VP then its projection in HP is?",
+      "question": "3. If a line is 40mm long and is inclined at 30° from hp and parallel to VP then its projection in HP is?",
       "answers": {
         "a": "34.64mm",
         "b": "20mm",
@@ -39,7 +39,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " If the projection of a line is a point in HP. It means?",
+      "question": "4. If the projection of a line is a point in HP. It means?",
       "answers": {
         "a": "Line is parallel to both HP and VP",
         "b": "Line is perpendicular to HP and parallel to VP",
@@ -53,7 +53,7 @@
     },
 
     {
-      "question": "If a line is in VP, which view from the following gives the actual length of the line AB??",
+      "question": "5. If a line is in VP, which view from the following gives the actual length of the line AB??",
       "answers": {
         "a": "Top view",
         "b": "Side view",
