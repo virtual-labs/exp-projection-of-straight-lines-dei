@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Loading.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Engineering Drawing- Virtual Lab</title>
+    <style>
+        #png {
+            position: absolute;
+            margin-left: 25px;
+            margin-top: 111px;
+
+        }
+
+        #png1 {
+            position: absolute;
+            margin-left: 114px;
+            margin-top: 56px;
+
+        }
+
+        #png2 {
+            position: relative;
+            margin-left: 132px;
+            margin-top: -65px;
+        }
+
+        #png3 {
+            position: absolute;
+            margin-left: 511px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 12;
+        }
+
+        #png4 {
+            position: absolute;
+            margin-left: 511px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 10;
+        }
+
+        #png5 {
+            position: absolute;
+            margin-left: 582px;
+            margin-top: 175px;
+            z-index: 11;
+
+        }
+
+        #png6 {
+            position: relative;
+            margin-left: 25px;
+            margin-top: 110px;
+
+        }
+
+        #png7 {
+            position: absolute;
+            margin-left: -620px;
+            margin-top: 110px;
+
+        }
+
+        #png8 {
+            position: absolute;
+            margin-left: -620px;
+            margin-top: 110px;
+
+        }
+
+        #png9 {
+            position: absolute;
+            margin-left: -620px;
+            margin-top: 110px;
+
+        }
+
+        #png10 {
+            position: absolute;
+            margin-left: -620px;
+            margin-top: 110px;
+
+        }
+
+        #png11 {
+            position: absolute;
+            margin-left: -620px;
+            margin-top: 110px;
+
+        }
+
+        #png12 {
+            position: absolute;
+            margin-left: 511px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 13;
+        }
+
+        #png13 {
+            position: absolute;
+            margin-left: 511px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 14;
+        }
+
+        #png14 {
+            position: absolute;
+            margin-left: -137px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 11;
+        }
+
+
+
+        #png50 {
+            position: relative;
+            margin-left: -140px;
+            margin-top: -362px;
+            transform: rotate(-52deg);
+        }
+
+        /* #png8 {
+            position: relative;
+            margin-left: 25px;
+            margin-top: -405px;
+
+        } */
+
+        /* #png9 {
+            position: relative;
+            margin-left: 25px;
+            margin-top: -453px;
+
+        } */
+
+        /* #png10 {
+            position: relative;
+            margin-left: -141px;
+            margin-top: -698px;
+            transform: rotate(-52deg);
+        } */
+
+
+        .drop {
+            position: absolute;
+            display: inline-block;
+            margin-top: 70px;
+            margin-left: 364px;
+            opacity: 0;
+            z-index: 1001;
+        }
+
+        .drop1 {
+            position: absolute;
+            display: inline-block;
+            margin-top: 69px;
+            margin-left: 362px;
+            opacity: 0;
+            z-index: 1001;
+        }
+
+        .drop2 {
+            position: absolute;
+            display: inline-block;
+            margin-top: 69px;
+            margin-left: 362px;
+            opacity: 0;
+            z-index: 1002;
+        }
+
+        .drop3 {
+            position: absolute;
+            display: inline-block;
+            margin-top: 69px;
+            margin-left: 362px;
+            opacity: 0;
+            z-index: 1003;
+        }
+
+        .choice {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img class="header-img" src="images/header.png" alt="virtual-lab-logo">
+        <h2 class="subject">Virtual Lab</h2>
+        <img class="header-img2" src="images/dei.jpg" alt="dei-logo">
+
+    </div>
+
+    <div class="topnav" id="myHeader">
+        <a class="active" href="#home"></a>
+        <a href=""></a>
+        <a href="#about"></a>
+    </div>
+
+    <body style="margin:0; font-family: verdana; color: #000;">
+        <table align="center">
+            <tr>
+                <td>
+                    <div id="simscreen">
+                        <div id="title">
+                            <h3>Projection Of Straight Lines</h3>
+                        </div>
+                        <div class="middle-container" id="canvas1" style="visibility: visible;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Select 3H Pencil and click on it to draw XY line</span>
+
+                        </div>
+
+                        <div class="middle-container" id="canvas2" style="visibility: hidden;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Draw a parallel line from XY in VP at 20mm distance from XY and a line at its left end perpendicular to it towards XY extended to HP</span>
+
+                        </div>
+
+                        <div class="middle-container" id="canvas3" style="visibility: hidden;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;4&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Now select 2H pencil and draw the projection of line AB in VP by drawing line at 30° angle from the previous drawn construction line</span>
+
+                        </div>
+
+                        <div class="middle-container" id="canvas4" style="visibility: hidden;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;5&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Then select 3H pencil and draw projection line  of A' extending to HP</span>
+
+                        </div>
+
+                        <div class="middle-container" id="canvas5" style="visibility: hidden;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;6&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Now select 2H pencil and draw projection of AB in HP by drawing line at distance 40mm from VP/XY between the two projection lines in HP</span>
+
+                        </div>
+
+                        <div class="sub-header" style="position: relative; margin-top:  2rem;">
+
+
+                            <img id="png1" class="board" src="images/unnamed.png" alt="picture" width="399" height="50"
+                                style="visibility: visible;">
+                            <img id="png" class="board" src="images/dgs.png" alt="picture" width="620" height="380">
+                            <!-- Drop Box -->
+                            <div class="drop" id="dr" style="visibility: visible;" width="10" height="10">
+                                <select id="choice" onchange="getValue(this);" width="20" height="20">
+                                    <option value="default" selected>Select</option>
+                                    <option value="pen">3H Pencil</option>
+                                    <option value="penn">2H Pencil</option>
+
+                                </select>
+                            </div>
+
+                            <div class="drop1" id="dr1" style="visibility:hidden;" width="10" height="10">
+                                <select id="choice1" onchange="getValue1(this);" width="20" height="20">
+                                    <option value="default" selected>Select</option>
+                                    <option value="pen">3H Pencil</option>
+                                    <option value="penn">2H Pencil</option>
+
+                                </select>
+                            </div>
+
+                            <div class="drop2" id="dr2" style="visibility:hidden;" width="10" height="10">
+                                <select id="choice1" onchange="getValue2(this);" width="20" height="20">
+                                    <option value="default" selected>Select</option>
+                                    <option value="pen1">3H Pencil</option>
+                                    <option value="penn2">2H Pencil</option>
+
+                                </select>
+                            </div>
+
+                            <div class="drop3" id="dr3" style="visibility:hidden;" width="10" height="10">
+                                <select id="choice1" onchange="getValue3(this);" width="20" height="20">
+                                    <option value="default" selected>Select</option>
+                                    <option value="pen3">3H Pencil</option>
+                                    <option value="penn5">2H Pencil</option>
+
+                                </select>
+                            </div>
+
+
+
+                            <img id="png3" class="board" src="images/2H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="nextst()">
+                            <img id="png4" class="board" src="images/3H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="movepen()">
+                            <img id="png12" class="board" src="images/2H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="nextst3()">
+                            <img id="png13" class="board" src="images/3H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="movepen3()">
+                            <img id="png5" class="board" src="images/arrow left.gif" alt="picture" width="100"
+                                height="50" style="visibility:hidden;">
+                            <img id="png6" class="board" src="images/output-onlinegiftools (68).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;">
+                            <img id="png7" class="board" src="images/output-onlinegiftools (9) (1).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;">
+                            <img id="png8" class="board" src="images/output-onlinegiftools (4) (1).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;">
+                            <img id="png9" class="board" src="images/output-onlinegiftools (5) (1).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;">
+                            <img id="png10" class="board" src="images/output-onlinegiftools (6) (1).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;">
+                            <!-- <img id="png11" class="board" src="images/output-onlinegiftools (63).gif" alt="picture"
+                                width="620" height="380" style="visibility:hidden;"> -->
+                            <img id="png14" class="board" src="images/transbox.png" alt="picture" width="145"
+                                height="10" style="visibility: hidden;" onclick="nextst1()">
+
+                                <span id="numoutnext"
+                                style="position: absolute; left: 410px; top: 135px; color: red; font-size: 12px"></span>
+
+
+
+
+
+
+
+
+
+
+
+                            <input type="button" id="next"
+                                style="visibility: hidden; position:absolute; left:672px; top:452px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+                                value="&nbsp;Next Step&nbsp;" onclick="parent.location='Step14.html'">
+
+
+                        </div>
+
+                    </div>
+
+
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div class="bottom-container">
+
+                    </div>
+
+    </body>
+
+    <script src="Script4.js"></script>
+
+</html>
