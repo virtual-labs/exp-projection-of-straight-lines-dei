@@ -34,7 +34,7 @@ function getValue1(option) {
     
   }
 }
-
+/*
 function getValue2(option) {
 
   if (option.value =="pen1")
@@ -70,7 +70,7 @@ function getValue3(option) {
     
   }
 }
-
+*/
 // first function
 function movepen(){
   document.getElementById("png6").style.visibility="visible";
@@ -81,10 +81,11 @@ function movepen(){
   myTimeout = setTimeout(myGreeting, 9000);
 
 }
+
 // third function
 function nextst(){
-//   document.getElementById("png8").style.visibility="visible";
-  document.getElementById("png8").style.visibility="hidden";
+  document.getElementById("png8").style.visibility="visible";
+  //document.getElementById("png8").style.visibility="hidden";
   document.getElementById("png5").style.visibility="hidden";
   document.getElementById("png7").style.visibility="hidden";
 //   document.getElementById("png3").style.visibility="hidden";
@@ -125,7 +126,7 @@ function myGreeting()
      {
     document.getElementById("png5").style.visibility="visible";
     // document.getElementById("dr2").style.visibility="visible";
-    document.getElementById("png14").style.visibility="visible";
+    document.getElementById("png18").style.visibility="visible";
     document.getElementById("canvas2").style.visibility="visible";
     document.getElementById("canvas1").style.visibility="hidden";
     
@@ -140,7 +141,8 @@ function myGreeting()
 // 2 gr
 function myGreeting1()
      {
-    document.getElementById("png15").style.visibility="visible";
+      document.getElementById("png5").style.visibility="visible";
+    document.getElementById("png19").style.visibility="visible";
     // document.getElementById("png10").style.visibility="visible";
     document.getElementById("canvas3").style.visibility="visible";
     document.getElementById("canvas2").style.visibility="hidden";
@@ -155,7 +157,9 @@ function myGreeting1()
 
 function myGreeting2()
      {
-    document.getElementById("dr2").style.visibility="visible";
+    //document.getElementById("dr2").style.visibility="visible";
+    document.getElementById("png5").style.visibility="visible";
+    document.getElementById("png19").style.visibility="visible";
     document.getElementById("canvas4").style.visibility="visible";
     document.getElementById("canvas3").style.visibility="hidden";
     myStopFunction1();
