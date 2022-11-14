@@ -20,7 +20,13 @@
             margin-top: 111px;
 
         }
+        #compass {
+            position: absolute;
+            margin-left: 565px;
 
+            margin-top: 120px;
+
+        }
         #png1 {
             position: absolute;
             margin-left: 114px;
@@ -241,7 +247,12 @@
             transform: rotate(-52deg);
             z-index: 11;
         }
-
+        #png29 {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 100px;
+            z-index: 0;
+        }
         #png50 {
             position: relative;
             margin-left: -140px;
@@ -536,9 +547,11 @@
 
 
                             <img id="png3" class="board" src="images/2H.png" alt="picture" width="140" height="10"
-                                style="visibility:hidden;" onclick="">
+                                style="visibility:hidden;" onclick="mpvepen2()">
                             <img id="png4" class="board" src="images/3H.png" alt="picture" width="140" height="10"
                                 style="visibility:hidden;" onclick="movepen()">
+                            <img id="compass" class="board" src="images/compass.png" alt="picture" width="50" height="150"
+                                style="visibility:hidden;" onclick="movepen3()">
                             <!-- <img id="png12" class="board" src="images/2H.png" alt="picture" width="140" height="10"
                                 style="visibility:hidden;" onclick="nextst3()">
                             <img id="png13" class="board" src="images/3H.png" alt="picture" width="140" height="10"
@@ -595,6 +608,8 @@
                                 height="10" style="visibility: hidden;" onclick="nextst9()">
                             <img id="png28" class="board" src="images/transbox.png" alt="picture" width="145"
                                 height="10" style="visibility: hidden;" onclick="nextst10()">
+                            <img id="png29" class="board" src="images/transbox.png" alt="picture" width="50"
+                                height="50" style="visibility: hidden;" onclick="nextst11()">
                             <span id="numoutnext"
                                 style="position: absolute; left: 410px; top: 135px; color: red; font-size: 12px"></span>
 
