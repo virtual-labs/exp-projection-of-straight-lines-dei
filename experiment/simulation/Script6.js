@@ -161,6 +161,7 @@ function nextst5() {
 function nextstn5() {
   document.getElementById("png5").style.visibility="visible";
   document.getElementById("pngnew5").style.visibility = "hidden";
+  
 
 }
 
