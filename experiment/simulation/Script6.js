@@ -165,6 +165,12 @@ function nextst5() {
 
 }
 
+function nextstn5() {
+  document.getElementById("png5").style.visibility="visible";
+  document.getElementById("pngnew5").style.visibility = "hidden";
+
+}
+
 function nextst6() {
   document.getElementById("png13").style.visibility = "visible";
   document.getElementById("png12").style.visibility = "hidden";
@@ -329,7 +335,7 @@ function myStopFunction6() {
 
 }
 function myGreeting7() {
-  document.getElementById("png5").style.visibility = "visible";
+  document.getElementById("pngnew5").style.visibility = "visible";
   document.getElementById("png24").style.visibility = "visible";
   document.getElementById("canvas8").style.visibility = "visible";
   document.getElementById("canvas7").style.visibility = "hidden";
