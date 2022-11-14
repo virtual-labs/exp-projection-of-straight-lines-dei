@@ -77,7 +77,14 @@ function movepen() {
   myTimeout = setTimeout(myGreeting, 9000);
 
 }
+function movepen2() {
+  document.getElementById("png16").style.visibility = "visible";
+  document.getElementById("png5").style.visibility = "hidden";
+  document.getElementById("dr1").style.visibility = "hidden";
+  document.getElementById("png3").style.visibility = "hidden";
+  myTimeout11 = setTimeout(myGreeting11, 8000);
 
+}
 // third function
 function nextst() {
   document.getElementById("png8").style.visibility = "visible";
@@ -171,7 +178,7 @@ function nextst6() {
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png24").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout9 = setTimeout(myGreeting8, 7000);
+  myTimeout9 = setTimeout(myGreeting8, 6000);
 
 }
 function nextst7() {
@@ -180,7 +187,7 @@ function nextst7() {
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png25").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout10 = setTimeout(myGreeting9, 7000);
+  myTimeout10 = setTimeout(myGreeting9, 6000);
 
 }
 
@@ -193,7 +200,7 @@ function nextst8() {
   myTimeout11 = setTimeout(myGreeting10, 15000);
 
 }
-
+/*
 function nextst9() {
   document.getElementById("png16").style.visibility = "visible";
   document.getElementById("png15").style.visibility = "hidden";
@@ -202,7 +209,7 @@ function nextst9() {
   document.getElementById("dr1").style.visibility="hidden";
   myTimeout12 = setTimeout(myGreeting11, 10000);
 
-}
+}*/
 
 function nextst10() {
   document.getElementById("png17").style.visibility = "visible";
@@ -371,7 +378,7 @@ function myStopFunction9() {
 }
 
 function myGreeting10() {
-  document.getElementById("png5").style.visibility = "visible";
+  //document.getElementById("png5").style.visibility = "visible";
   document.getElementById("png27").style.visibility = "visible";
   document.getElementById("canvas11").style.visibility = "visible";
   document.getElementById("canvas10").style.visibility = "hidden";
