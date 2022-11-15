@@ -20,6 +20,7 @@ function getValue1(option) {
   if (option.value == "penn") {
     document.getElementById("png3").style.visibility = "visible";
     document.getElementById("png5").style.visibility = "visible";
+    document.getElementById("pngnew6").style.visibility = "hidden";
     document.getElementById("numoutnext").innerHTML = "";
   }
 
@@ -30,13 +31,14 @@ function getValue1(option) {
 
   }
 }
-/*
+
 function getValue2(option) {
 
   if (option.value =="pen1")
    {
-    document.getElementById("png13").style.visibility = "visible";
+    document.getElementById("pngpen3").style.visibility = "visible";
     document.getElementById("png5").style.visibility = "visible";
+    document.getElementById("pngnew6").style.visibility = "hidden";
     document.getElementById("numoutnext").innerHTML = "";
   }
 
@@ -49,24 +51,24 @@ function getValue2(option) {
   }
 }
 
-function getValue3(option) {
+// function getValue3(option) {
 
-  if (option.value =="penn5")
-   {
-    document.getElementById("png12").style.visibility = "visible";
-    document.getElementById("png5").style.visibility = "visible";
-    document.getElementById("numoutnext").innerHTML = "";
-  }
+//   if (option.value =="penn5")
+//    {
+//     document.getElementById("png12").style.visibility = "visible";
+//     document.getElementById("png5").style.visibility = "visible";
+//     document.getElementById("numoutnext").innerHTML = "";
+//   }
 
-  else
-   {
-    document.getElementById("numoutnext").innerHTML="Select 2H pencil";
-    document.getElementById("png12").style.visibility = "hidden";
-    document.getElementById("png5").style.visibility = "hidden";
+//   else
+//    {
+//     document.getElementById("numoutnext").innerHTML="Select 2H pencil";
+//     document.getElementById("png12").style.visibility = "hidden";
+//     document.getElementById("png5").style.visibility = "hidden";
     
-  }
-}
-*/
+//   }
+// }
+
 // first function
 function movepen() {
   document.getElementById("png6").style.visibility = "visible";
@@ -77,7 +79,14 @@ function movepen() {
   myTimeout = setTimeout(myGreeting, 9000);
 
 }
+function movepen2() {
+  document.getElementById("png16").style.visibility = "visible";
+  document.getElementById("png5").style.visibility = "hidden";
+  document.getElementById("dr1").style.visibility = "hidden";
+  document.getElementById("png3").style.visibility = "hidden";
+  myTimeout11 = setTimeout(myGreeting11, 8000);
 
+}
 // third function
 function nextst() {
   document.getElementById("png8").style.visibility = "visible";
@@ -115,7 +124,7 @@ function nextst1() {
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png18").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout2 = setTimeout(myGreeting1, 15000);
+  myTimeout2 = setTimeout(myGreeting1, 13000);
 
 }
 // new step made
@@ -124,7 +133,7 @@ function nextst2() {
   document.getElementById("png8").style.visibility = "hidden";
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png20").style.visibility = "hidden";
-  mytimeoutnew = setTimeout(mygret, 10000);
+  myTimeoutnew = setTimeout(mygret, 9000);
 
 
 }
@@ -151,6 +160,7 @@ function nextst4() {
 function nextst5() {
   document.getElementById("png12").style.visibility = "visible";
   document.getElementById("png11").style.visibility = "hidden";
+  // document.getElementById("compass").style.visibility = "hidden";
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png23").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
@@ -160,17 +170,20 @@ function nextst5() {
 
 function nextstn5() {
   document.getElementById("png5").style.visibility="visible";
+  document.getElementById("compass").style.visibility="visible";
   document.getElementById("pngnew5").style.visibility = "hidden";
+  
 
 }
 
 function nextst6() {
   document.getElementById("png13").style.visibility = "visible";
   document.getElementById("png12").style.visibility = "hidden";
+  document.getElementById("compass").style.visibility = "hidden";
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png24").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout9 = setTimeout(myGreeting8, 7000);
+  myTimeout9 = setTimeout(myGreeting8, 3000);
 
 }
 function nextst7() {
@@ -179,7 +192,7 @@ function nextst7() {
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png25").style.visibility = "hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout10 = setTimeout(myGreeting9, 7000);
+  myTimeout10 = setTimeout(myGreeting9, 3000);
 
 }
 
@@ -187,12 +200,12 @@ function nextst8() {
   document.getElementById("png15").style.visibility = "visible";
   document.getElementById("png14").style.visibility = "hidden";
   document.getElementById("png5").style.visibility = "hidden";
-  document.getElementById("png26").style.visibility = "hidden";
-  // document.getElementById("dr1").style.visibility="visible";
+  document.getElementById("pngpen3").style.visibility = "hidden";
+  document.getElementById("dr2").style.visibility="hidden";
   myTimeout11 = setTimeout(myGreeting10, 15000);
 
 }
-
+/*
 function nextst9() {
   document.getElementById("png16").style.visibility = "visible";
   document.getElementById("png15").style.visibility = "hidden";
@@ -201,16 +214,14 @@ function nextst9() {
   document.getElementById("dr1").style.visibility="hidden";
   myTimeout12 = setTimeout(myGreeting11, 10000);
 
-}
+}*/
 
 function nextst10() {
   document.getElementById("png17").style.visibility = "visible";
   document.getElementById("png16").style.visibility = "hidden";
   document.getElementById("png5").style.visibility = "hidden";
   document.getElementById("png28").style.visibility = "hidden";
-  document.getElementById("dr1").style.visibility="hidden";
   myTimeout13 = setTimeout(myGreeting12, 10000);
-
 }
 
 function myGreeting5() {
@@ -251,11 +262,11 @@ function myGreeting1() {
   // document.getElementById("png10").style.visibility="visible";
   document.getElementById("canvas3").style.visibility = "visible";
   document.getElementById("canvas2").style.visibility = "hidden";
-  myStopFunction1();
+  myStopFunction2();
 }
 
-function myStopFunction1() {
-  clearTimeout(myTimeout);
+function myStopFunction2() {
+  clearTimeout(myTimeout2);
 
 
 }
@@ -266,10 +277,10 @@ function myGreeting2() {
   document.getElementById("png20").style.visibility = "visible";
   document.getElementById("canvas4").style.visibility = "visible";
   document.getElementById("canvas3").style.visibility = "hidden";
-  myStopFunction1();
+  myStopFunction3();
 }
 
-function myStopFunction1() {
+function myStopFunction3() {
   clearTimeout(myTimeout3);
 
 
@@ -289,29 +300,19 @@ function myGreeting3()
   
 }
 */
-function myGreeting4() {
-  document.getElementById("next").style.visibility = "visible";
+// 
 
-  myStopFunction1();
-}
-
-function myStopFunction1() {
-  clearTimeout(myTimeout5);
-
-
-}
 
 function mygret() {
-  debugger;
   document.getElementById("png5").style.visibility = "visible";
   document.getElementById("png21").style.visibility = "visible";
   document.getElementById("canvas5").style.visibility = "visible";
   document.getElementById("canvas4").style.visibility = "hidden";
-  myStopFunction1();
+  myStopFunction4();
 }
 
-function myStopFunction1() {
-  clearTimeout(mytimeoutnew);
+function myStopFunction4() {
+  clearTimeout(myTimeoutnew);
 }
 
 function myGreeting6() {
@@ -356,8 +357,8 @@ function myStopFunction8() {
 }
 
 function myGreeting9() {
-  document.getElementById("png5").style.visibility = "visible";
-  document.getElementById("png26").style.visibility = "visible";
+  document.getElementById("pngnew6").style.visibility = "visible";
+  document.getElementById("dr2").style.visibility = "visible";
   document.getElementById("canvas10").style.visibility = "visible";
   document.getElementById("canvas9").style.visibility = "hidden";
   myStopFunction9();
@@ -370,8 +371,8 @@ function myStopFunction9() {
 }
 
 function myGreeting10() {
-  document.getElementById("png5").style.visibility = "visible";
-  document.getElementById("png27").style.visibility = "visible";
+  document.getElementById("pngnew6").style.visibility = "visible";
+  //document.getElementById("png27").style.visibility = "visible";
   document.getElementById("canvas11").style.visibility = "visible";
   document.getElementById("canvas10").style.visibility = "hidden";
   document.getElementById("dr1").style.visibility = "visible";
@@ -399,11 +400,7 @@ function myStopFunction11() {
 }
 
 function myGreeting12() {
-  // document.getElementById("png5").style.visibility = "visible";
   document.getElementById("next").style.visibility = "visible";
-  document.getElementById("canvas12").style.visibility = "visible";
-  document.getElementById("canvas11").style.visibility = "hidden";
-  //document.getElementById("dr1").style.visibility = "visible";
   myStopFunction12();
 
 }

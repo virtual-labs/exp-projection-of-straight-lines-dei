@@ -20,6 +20,14 @@
 
         }
 
+        #compass {
+            position: absolute;
+            margin-left: 565px;
+            margin-top: 120px;
+            z-index: 12;
+
+        }
+
         #png1 {
             position: absolute;
             margin-left: 114px;
@@ -35,13 +43,21 @@
 
         #png3 {
             position: absolute;
-            margin-left: 511px;
+            margin-left: 515px;
             margin-top: 172px;
             transform: rotate(-52deg);
             z-index: 12;
         }
 
         #png4 {
+            position: absolute;
+            margin-left: 516px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 10;
+        }
+
+        #pngpen3 {
             position: absolute;
             margin-left: 511px;
             margin-top: 172px;
@@ -60,6 +76,13 @@
         #pngnew5 {
             position: absolute;
             margin-left: 231px;
+            margin-top: 118px;
+            z-index: 11;
+        }
+
+        #pngnew6 {
+            position: absolute;
+            margin-left: 358px;
             margin-top: 118px;
             z-index: 11;
         }
@@ -226,9 +249,9 @@
 
         #png25 {
             position: absolute;
-            margin-left: -137px;
-            margin-top: 172px;
-            transform: rotate(-52deg);
+            margin-left: -87px;
+            margin-top: 129px;
+            transform: rotate(0deg);
             z-index: 11;
         }
 
@@ -246,6 +269,20 @@
             margin-top: 172px;
             transform: rotate(-52deg);
             z-index: 11;
+        }
+        #png28 {
+            position: absolute;
+            margin-left: -137px;
+            margin-top: 172px;
+            transform: rotate(-52deg);
+            z-index: 11;
+        }
+
+        #png29 {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 100px;
+            z-index: 0;
         }
 
         #png50 {
@@ -439,7 +476,8 @@
                                 style="position: absolute; top: 27px; left: 55px;">&nbsp;9&nbsp;</span></br>
 
                             <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
-                                    aria-hidden="true"></i>&nbsp;Then draw an arc by compass taking a' as center by
+                                    aria-hidden="true"></i>&nbsp;Then select compass and click on it to draw an arc
+                                taking a' as center by
                                 opening it by a'b2'</span>
 
                         </div>
@@ -466,7 +504,8 @@
                                 style="position: absolute; top: 27px; left: 55px;">&nbsp;11&nbsp;</span></br>
 
                             <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
-                                    aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Draw parallel lines from b1' and b1 to cut
+                                    aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Now select 3H pencil to draw parallel lines
+                                from b1' and b1 to cut
                                 their
                                 respective arcs</span>
 
@@ -525,7 +564,7 @@
                                 </select>
                             </div>
 
-                            <!-- <div class="drop2" id="dr2" style="visibility:hidden;" width="10" height="10">
+                            <div class="drop2" id="dr2" style="visibility:hidden;" width="10" height="10">
                                 <select id="choice1" onchange="getValue2(this);" width="20" height="20">
                                     <option value="default" selected>Select</option>
                                     <option value="pen1">3H Pencil</option>
@@ -534,21 +573,25 @@
                                 </select>
                             </div>
 
-                            <div class="drop3" id="dr3" style="visibility:hidden;" width="10" height="10">
+                            <!-- <div class="drop3" id="dr3" style="visibility:hidden;" width="10" height="10">
                                 <select id="choice1" onchange="getValue3(this);" width="20" height="20">
                                     <option value="default" selected>Select</option>
                                     <option value="pen3">3H Pencil</option>
                                     <option value="penn5">2H Pencil</option>
 
                                 </select>
-                            </div>-->
+                            </div> -->
 
 
 
                             <img id="png3" class="board" src="images/2H.png" alt="picture" width="140" height="10"
-                                style="visibility:hidden;" onclick="">
-                            <img id="png4" class="board" src="images/3H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="movepen2()">
+                            <img id="png4" class="board" src="images/3H.png" alt="picture" width="142" height="9"
                                 style="visibility:hidden;" onclick="movepen()">
+                            <img id="pngpen3" class="board" src="images/3H.png" alt="picture" width="140" height="10"
+                                style="visibility:hidden;" onclick="nextst8()">
+                            <img id="compass" class="board" src="images/compass.png" alt="picture" width="50"
+                                height="150" style="visibility:hidden;" onclick="nextst6()">
                             <!-- <img id="png12" class="board" src="images/2H.png" alt="picture" width="140" height="10"
                                 style="visibility:hidden;" onclick="nextst3()">
                             <img id="png13" class="board" src="images/3H.png" alt="picture" width="140" height="10"
@@ -556,6 +599,8 @@
                             <img id="png5" class="board" src="images/arrow left.gif" alt="picture" width="100"
                                 height="50" style="visibility:hidden;">
                             <img id="pngnew5" class="board" src="images/arrow up.gif" alt="picture" width="100"
+                                height="50" style="visibility:hidden;">
+                            <img id="pngnew6" class="board" src="images/arrow up.gif" alt="picture" width="100"
                                 height="50" style="visibility:hidden;">
                             <img id="png6" class="board" src="images/output-onlinegiftools (68).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
@@ -569,11 +614,11 @@
                                 width="620" height="380" style="visibility:hidden;">
                             <img id="png11" class="board" src="images/output-onlinegiftools (13) (1).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
-                            <img id="png12" class="board" src="images/output-onlinegiftools (14) (1).gif" alt="picture"
+                            <img id="png12" class="board" src="images/output-onlinegiftools (25).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
-                            <img id="png13" class="board" src="images/output-onlinegiftools (15) (1).gif" alt="picture"
+                            <img id="png13" class="board" src="images/output-onlinegiftools (1) (1).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
-                            <img id="png14" class="board" src="images/output-onlinegiftools (16) (1).gif" alt="picture"
+                            <img id="png14" class="board" src="images/output-onlinegiftools (2) (1).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
                             <img id="png15" class="board" src="images/output-onlinegiftools (17) (1).gif" alt="picture"
                                 width="620" height="380" style="visibility:hidden;">
@@ -595,18 +640,20 @@
                                 height="10" style="visibility: hidden;" onclick="nextst3()">
                             <img id="png22" class="board" src="images/transbox.png" alt="picture" width="145"
                                 height="10" style="visibility: hidden;" onclick="nextst4()">
-                            <img id="png23" class="board" src="images/transbox.png" alt="picture" width="60" height="50"
-                                style="visibility: hidden;" onclick="nextst5()">
-                            <img id="png24" class="board" src="images/transbox.png" alt="picture" width="145"
-                                height="10" style="visibility: hidden;" onclick="nextstn5()">
-                            <img id="png25" class="board" src="images/transbox.png" alt="picture" width="145"
-                                height="10" style="visibility: hidden;" onclick="nextst7()">
-                            <img id="png26" class="board" src="images/transbox.png" alt="picture" width="145"
-                                height="10" style="visibility: hidden;" onclick="nextst8()">
+                            <img id="png23" class="board" src="images/transbox.png" alt="picture" width="145"
+                                height="10" style="visibility: hidden;" onclick="nextst5()">
+                            <img id="png24" class="board" src="images/transbox.png" alt="picture" width="60" height="50"
+                                style="visibility: hidden;" onclick="nextstn5()">
+                            <img id="png25" class="board" src="images/transbox.png" alt="picture" width="50"
+                                height="130" style="visibility: hidden;" onclick="nextst7()">
+                            <!-- <img id="png26" class="board" src="images/transbox.png" alt="picture" width="145"
+                                height="10" style="visibility: hidden;" onclick="nextst8()"> -->
                             <img id="png27" class="board" src="images/transbox.png" alt="picture" width="145"
                                 height="10" style="visibility: hidden;" onclick="nextst9()">
                             <img id="png28" class="board" src="images/transbox.png" alt="picture" width="145"
                                 height="10" style="visibility: hidden;" onclick="nextst10()">
+                            <img id="png29" class="board" src="images/transbox.png" alt="picture" width="50" height="50"
+                                style="visibility: hidden;" onclick="nextst11()">
                             <span id="numoutnext"
                                 style="position: absolute; left: 410px; top: 135px; color: red; font-size: 12px"></span>
 
