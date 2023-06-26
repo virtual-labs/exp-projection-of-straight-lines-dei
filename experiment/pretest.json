@@ -2,38 +2,65 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which of the following pencil is used to draw construction lines",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "3H",
+        "b": "HB",
+        "c": "3H",
+        "d": "2H"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Which pencil is used to draw visible projections?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "3H",
+        "b": "HB",
+        "c": "3H",
+        "d": "2H"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which pencil is used to draw visible projections?",
+      "answers": {
+        "a": "Projection line",
+        "b": "Reference line",
+        "c": "Construction line",
+        "d": "Visible line"
       },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. If a line 40mm long is originating from hp then what is its shortest distance from hp?",
+      "answers": {
+        "a": "20mm",
+        "b": "10mm",
+        "c": "0mm",
+        "d": "40mm"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "5. Least count of mini drafter?",
+      "answers": {
+        "a": "10mm",
+        "b": "1mm",
+        "c": "1cm",
+        "d": ".1mm"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
+
   ]
 }

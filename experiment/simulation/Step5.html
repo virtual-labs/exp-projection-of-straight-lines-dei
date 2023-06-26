@@ -34,20 +34,20 @@
         }
 
         #png3 {
-            position: relative;
-            margin-left: -176px;
-            margin-top: 17px;
-            transform: rotate(-73deg);
+            position: absolute;
+            margin-left: -27px;
+            margin-top: 171px;
+            transform: rotate(-52deg);
+            z-index: 12;
 
         }
 
         #png4 {
             position: relative;
-            margin-left: -28px;
-            margin-top: 132px;
+            margin-left: -27px;
+            margin-top: 135px;
             transform: rotate(-52deg);
             z-index: 10;
-
         }
 
         #png5 {
@@ -99,7 +99,16 @@
             position: absolute;
             display: inline-block;
             margin-top: -445px;
-            margin-left: -242px;
+            margin-left: -272px;
+            opacity: 0;
+            z-index: 1001;
+        }
+
+        .drop1 {
+            position: absolute;
+            display: inline-block;
+            margin-top: -445px;
+            margin-left: -272px;
             opacity: 0;
             z-index: 1001;
         }
@@ -119,9 +128,9 @@
     </div>
 
     <div class="topnav" id="myHeader">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">List of Experiments</a>
-        <a href="#about">About</a>
+        <a class="active" href="#home"></a>
+        <a href=""></a>
+        <a href="#about"></a>
     </div>
 
     <body style="margin:0; font-family: verdana; color: #000;">
@@ -132,17 +141,29 @@
                         <div id="title">
                             <h3>Projection Of Straight Lines</h3>
                         </div>
-                        <div class="middle-container" id="canvas1">
+                        <div class="middle-container" id="canvas1" style="visibility: visible;">
 
                             <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
                             <span class="circlebg"
-                                style="position: absolute; top: 27px; left: 55px;">&nbsp;1&nbsp;</span></br>
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
 
                             <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
-                                    aria-hidden="true"></i>&nbsp;Setup your drawing table</span>
+                                    aria-hidden="true"></i>&nbsp;Select 3H Pencil  and click on to draw XY line</span>
 
+                        </div>
 
+                        <div class="middle-container" id="canvas2" style="visibility: hidden;">
+
+                            <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+                            <span class="circlebg"
+                                style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
+
+                            <span style="position: absolute; left:83px; top: 30px; "><i class="fa fa-hand-o-right"
+                                    aria-hidden="true"></i>&nbsp;Select 2H Pencil and click on it to draw projection of line AB at distance 25mm from VP and 60mm from HP </span>
+
+                        </div>
                             <div class="sub-header" style="position: relative; margin-top:  2rem;">
 
 
@@ -150,18 +171,18 @@
 
 
                                 <img id="png2" class="board" src="images/unnamed.png" alt="picture" width="399"
-                                    height="50" style="display: visible;">
-                                <!-- <img id="png3" class="board" src="images/2H.png" alt="picture" width="200" height="10"
-                                    style="visibility:hidden ;"> -->
-                                <img id="png4" class="board" src="images/3H.png" alt="picture" width="145" height="10"
+                                    height="50" style="visibility: visible;">
+                                <img id="png3" class="board" src="images/2H.png" alt="picture" width="140" height="9"
+                                    style="visibility:hidden ;" onclick="nextst()">
+                                <img id="png4" class="board" src="images/3H.png" alt="picture" width="140" height="9"
                                     style="visibility:hidden ;" onclick="movepen()">
 
                                 <img id="png5" class="board" src="images/arrow left.gif" alt="picture" width="100"
                                     height="50" style="visibility:hidden;">
-                                <img id="png6" class="board" src="images/output-onlinegiftools (24) (1).gif"
+                                <img id="png6" class="board" src="images/output-onlinegiftools (61).gif"
                                     alt="picture" width="620" height="380" style="visibility: hidden;">
-                                <img id="png7" class="board" src="images/transbox.png" alt="picture" width="145"
-                                    height="10" style="visibility: visible;" onclick="nextst()">
+                                <!-- <img id="png7" class="board" src="images/transbox.png" alt="picture" width="145"
+                                    height="10" style="visibility: visible;" onclick="nextst()"> -->
                                 <img id="png8" class="board" src="images/output-onlinegiftools (58).gif" alt="picture"
                                     width="620" height="380" style="visibility: hidden;">
                                 <img id="png9" class="board" src="images/output-onlinegiftools (59).gif" alt="picture"
@@ -173,8 +194,17 @@
 
 
 
-                                <div class="drop" width="10" height="10">
+                                <div class="drop" id="dr" style="visibility: visible;" width="10" height="10">
                                     <select id="choice" onchange="getValue(this);" width="20" height="20">
+                                        <option value="default" selected>Select</option>
+                                        <option value="pen">3H Pencil</option>
+                                        <option value="penn">2H Pencil</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="drop1" id="dr1" style="visibility: hidden;" width="10" height="10">
+                                    <select id="choice1" onchange="getValue1(this);" width="20" height="20">
                                         <option value="default" selected>Select</option>
                                         <option value="pen">3H Pencil</option>
                                         <option value="penn">2H Pencil</option>
@@ -192,11 +222,11 @@
 
                                 <input type="button" id="next"
                                     style="visibility: hidden; position:absolute; left:672px; top:452px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
-                                    value="&nbsp;Next Step&nbsp;" onclick="parent.location='Step5.html'">
+                                    value="&nbsp;Next Step&nbsp;" onclick="parent.location='Step6.html'">
 
 
                             </div>
-                        </div>
+                            
                     </div>
 
 
