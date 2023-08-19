@@ -24,12 +24,17 @@ function myStopFunction() {
     clearTimeout(myTimeout);
 
 }
-
+var check1 = 0;
 function clipmove() {
     document.getElementById("png8").style.visibility = "visible";
     document.getElementById("png4").style.visibility = "hidden";
     document.getElementById("png8").style.animationPlayState = "running";
     document.getElementById("png8").style.animationIterationCount = "1";
+    ++check1;
+    if(check1==5)
+    {
+        document.getElementById("next").style.visibility = "visible";
+    }
 }
 
 function clipmove1() {
@@ -37,6 +42,11 @@ function clipmove1() {
     document.getElementById("png5").style.visibility = "hidden";
     document.getElementById("png9").style.animationPlayState = "running";
     document.getElementById("png9").style.animationIterationCount = "1";
+    ++check1;
+    if(check1==5)
+    {
+        document.getElementById("next").style.visibility = "visible";
+    }
 }
 
 function clipmove2() {
@@ -44,6 +54,11 @@ function clipmove2() {
     document.getElementById("png6").style.visibility = "hidden";
     document.getElementById("png10").style.animationPlayState = "running";
     document.getElementById("png10").style.animationIterationCount = "1";
+    ++check1;
+    if(check1==5)
+    {
+        document.getElementById("next").style.visibility = "visible";
+    }
 }
 
 function clipmove3() {
@@ -51,6 +66,11 @@ function clipmove3() {
     document.getElementById("png7").style.visibility = "hidden";
     document.getElementById("png11").style.animationPlayState = "running";
     document.getElementById("png11").style.animationIterationCount = "1";
+    ++check1;
+    if(check1==5)
+    {
+        document.getElementById("next").style.visibility = "visible";
+    }
 }
 
 function draftermove() {
@@ -58,5 +78,10 @@ function draftermove() {
     document.getElementById("png13").style.visibility = "hidden";
     document.getElementById("png14").style.animationPlayState = "running";
     document.getElementById("png14").style.animationIterationCount = "1";
+    ++check1;
+    if(check1==5)
+    {
+        document.getElementById("next").style.visibility = "visible";
+    }
 }
 

@@ -117,7 +117,7 @@ function nextst1(){
   document.getElementById("png6").style.visibility="hidden";
   document.getElementById("png5").style.visibility="hidden";
   // document.getElementById("dr1").style.visibility="visible";
-  myTimeout2 = setTimeout(myGreeting1, 15000);
+  myTimeout2 = setTimeout(myGreeting1, 4000);
 
 }
 
