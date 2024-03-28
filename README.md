@@ -20,8 +20,8 @@ A straight line is basically the shortest distance between any two points. Top v
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Prateek Dubey | Student | Electrical Engineering | Dayalbagh Educational Institute  | prateek191226@dei.ac.in
-2 | Sarth Gupta |Student | Civil Engineering | Dayalbagh Educational Institute  | sarth191161@dei.ac.in
-3 | Anuj Tripathi | Faculty of Engineering | Civil Engineering | Dayalbagh Educational Institute | atripati1253@gmail.com
-4 | Shyamendra Singh | Faculty of Engineering | Agricultural Engineering | Dayalbagh Educational Institute | shyamendratomar736@gmail.com
+1 | <b> Prateek Dubey | Student | Electrical Engineering | Dayalbagh Educational Institute  | prateek191226@dei.ac.in
+2 | <b> Sarth Gupta |Student | Civil Engineering | Dayalbagh Educational Institute  | sarth191161@dei.ac.in
+3 | <b> Anuj Tripathi | Faculty of Engineering | Civil Engineering | Dayalbagh Educational Institute | atripati1253@gmail.com
+4 | <b> Shyamendra Singh | Faculty of Engineering | Agricultural Engineering | Dayalbagh Educational Institute | shyamendratomar736@gmail.com
 
