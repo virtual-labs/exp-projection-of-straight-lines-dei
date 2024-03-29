@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-A straight line is basically the shortest distance between any two points. Top view of a straight line is is basically the line joining the top view of its end points as shown in HP. Similarly the front view of a straight line is basically the line joining the front view of its end points as shown in VP.
+
 
 <b>Name of Developer | <b> Ishant Singhal 
 :--|:--|
