@@ -17,7 +17,7 @@ The shortest distance between two points is known as the straight lines. When to
 **7.	Inclination of front view length with XY axis -** It is denoted by alpha (a).  Eg. If inclination of the front view of the line with XY axis is provided as 35 degrees. From this we can infer that alpha = 35 degrees.
 
 <p align="center">
-  <img src="images/lines-notations.svg" alt="Notations" height = 120>
+  <img src="images/lines-notations.svg" alt="Notations" height = 320>
 </p>
 
 ####  Different Positions of Straight Line
