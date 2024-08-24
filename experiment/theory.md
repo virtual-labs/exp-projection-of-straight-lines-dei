@@ -19,6 +19,9 @@ The shortest distance between two points is known as the straight lines. When to
 <p align="center">
   <img src="images/lines-notations.svg" alt="Notations" height = 320>
 </p>
+<p align="center">
+  <b>Fig.1 Notations</b>
+</p>
 
 ####  Different Positions of Straight Line
 The position of a straight line may also be described with respect to the two reference planes. It may be:
