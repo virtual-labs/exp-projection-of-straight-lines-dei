@@ -1,1 +1,1 @@
-#### To study and draw the projection of straight lines.
+#### To understand and draw the projection of straight lines.
