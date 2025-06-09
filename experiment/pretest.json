@@ -6,7 +6,7 @@
       "answers": {
         "a": "3H",
         "b": "HB",
-        "c": "3H",
+        "c": "3B",
         "d": "2H"
       },
       
@@ -18,7 +18,7 @@
       "answers": {
         "a": "3H",
         "b": "HB",
-        "c": "3H",
+        "c": "3B",
         "d": "2H"
       },
       
@@ -28,10 +28,10 @@
     {
       "question": "Which pencil is used to draw visible projections?",
       "answers": {
-        "a": "Projection line",
-        "b": "Reference line",
-        "c": "Construction line",
-        "d": "Visible line"
+        "a": "2B",
+        "b": "HB",
+        "c": "2H",
+        "d": "H"
       },
       
       "correctAnswer": "b",
@@ -55,10 +55,10 @@
         "a": "10mm",
         "b": "1mm",
         "c": "1cm",
-        "d": ".1mm"
+        "d": ".15mm"
       },
       
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
 
