@@ -9,8 +9,10 @@
         "c": "3B",
         "d": "2H"
       },
+      "explanations": {
+        "a": "3H pencil is hard and gives light lines ideal for construction work."
+      },
       "correctAnswer": "a",
-      "explanation": "3H pencil is hard and gives light lines ideal for construction work.",
       "difficulty": "beginner"
     },
     {
@@ -21,20 +23,24 @@
         "c": "3B",
         "d": "2H"
       },
+      "explanations": {
+        "d": "2H pencil is slightly dark and sharp, suitable for drawing visible projections."
+      },
       "correctAnswer": "d",
-      "explanation": "2H pencil is slightly dark and sharp, suitable for drawing visible projections.",
       "difficulty": "beginner"
     },
     {
-      "question": "Which pencil is used to draw visible projections?",
+      "question": "Which pencil is used for drawing dark and prominent lines?",
       "answers": {
         "a": "2B",
         "b": "HB",
         "c": "2H",
         "d": "H"
       },
+      "explanations": {
+        "b": "HB pencil provides a medium-dark tone suitable for clearly visible lines."
+      },
       "correctAnswer": "b",
-      "explanation": "HB pencil provides a medium-dark tone suitable for clearly visible lines.",
       "difficulty": "beginner"
     },
     {
@@ -45,8 +51,10 @@
         "c": "0mm",
         "d": "40mm"
       },
+      "explanations": {
+        "c": "If a line originates from HP, its distance from HP is 0mm by definition."
+      },
       "correctAnswer": "c",
-      "explanation": "If a line originates from HP, its distance from HP is 0mm by definition.",
       "difficulty": "beginner"
     },
     {
@@ -57,8 +65,10 @@
         "c": "1cm",
         "d": ".15mm"
       },
+      "explanations": {
+        "b": "The least count of a mini drafter is 1mm for precise drawing measurements."
+      },
       "correctAnswer": "b",
-      "explanation": "The least count of a mini drafter is 1mm for precise drawing measurements.",
       "difficulty": "beginner"
     }
   ]
