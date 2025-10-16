@@ -5,11 +5,13 @@
       "question": "The projection of line is always ______ to it's actual line ?",
       "answers": {
         "a": "Greater than or equal",
-        "b": "Less than or equa",
+        "b": "Less than or equal",
         "c": "Greater",
         "d": "Smaller"
       },
-      
+      "explanations": {
+        "b": "A projection is always equal to or shorter than the actual line due to foreshortening."
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -18,10 +20,12 @@
       "answers": {
         "a": "Lies at some distance from xy",
         "b": "Lies parallel to xy",
-        "c": "Lies in xy"
-        
+        "c": "Lies in xy",
+        "d": "Lies perpendicular to xy"
       },
-      
+      "explanations": {
+        "c": "A line in HP lies directly on the XY line in the VP projection."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -32,9 +36,10 @@
         "b": "20mm",
         "c": "30.76mm",
         "d": "40mm"
-        
       },
-      
+      "explanations": {
+        "a": "The top view (HP projection) = 40 × cos(30°) = 34.64mm."
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -43,28 +48,28 @@
       "answers": {
         "a": "Line is parallel to both HP and VP",
         "b": "Line is perpendicular to HP and parallel to VP",
-        "c": "Line is perpendicular to VP and parallel to HP"
-        
-        
+        "c": "Line is perpendicular to VP and parallel to HP",
+        "d": "Line is parallel to HP and perpendicular to VP"
       },
-      
+      "explanations": {
+        "b": "A line perpendicular to HP appears as a point in its top view."
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
-
     {
-      "question": "If a line is in VP, which view from the following gives the actual length of the line AB??",
+      "question": "If a line is in VP, which view from the following gives the actual length of the line AB?",
       "answers": {
         "a": "Top view",
         "b": "Side view",
         "c": "Front view",
-        "d": "40mm"
-       },
-      
+        "d": "Bottom view"
+      },
+      "explanations": {
+        "c": "Since the line lies in VP, the front view shows its true length."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
-
-
   ]
 }
